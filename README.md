@@ -14,8 +14,8 @@
 
 - 📫 Hit me up. We can talk: 
 
-&nbsp; &nbsp; &nbsp; [![Discord](https://img.icons8.com/material-sharp/2x/discord-logo.png)](https://www.google.com) 
-&nbsp; &nbsp; &nbsp; [![LinkedIn](https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-48.png)](https://www.duckduckgo.com)
+&nbsp; &nbsp; &nbsp; [![Discord](https://img.icons8.com/material-sharp/2x/discord-logo.png)](https://discordapp.com/users/763669633223753750) 
+&nbsp; &nbsp; &nbsp; [![LinkedIn](https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-48.png)](https://www.linkedin.com/in/ashish-sam-t-george-08426a151)
 
 
 <!--
