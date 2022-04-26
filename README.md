@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-## My name is **Ashish Sam T George**, You can call me **TC4Y** (teekay)
+## My name is **Ashish Sam T George**
 
 #### I am passionate about computers and technology 
 
