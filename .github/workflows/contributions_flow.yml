@@ -1,9 +1,6 @@
 name: Update Contributions in README.md every day
 
 on:
-  push:
-    branches:
-      - "main"
   schedule:
     - cron: 0 1 * * *
 
@@ -37,8 +34,8 @@ jobs:
         run: |
           git add .
           git diff
-          git config --global user.email "github-action-bot@example.com"
-          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "ashishsamtgeorge@gmail.com"
+          git config --global user.name "TC4Y-777"
           git commit -m "Updated README" -a || echo "No changes to commit"
 
       - name: Push to GitHub
