@@ -27,16 +27,11 @@ jobs:
       - name: Make script executable
         run: chmod +x updateContributions.sh
 
-      - name: Execute python script
+      - name: Execute script for updating contributions
         run: ./updateContributions.sh
-        # run: entireContributions=`python3 contributionDetails.py`
         env:
           GRAPHQL_ENDPOINT: ${{ vars.GRAPHQL_ENDPOINT }}
           PROFILE_READ_TOKEN: ${{ secrets.PROFILE_READ_TOKEN }}
-          
-
-      # - name: Modify README to add latest total contribution
-      #   run: awk -v var="$entireContributions" '{sub(/- Total Contributions in GitHub: [0-9]+/, "- Total Contributions in GitHub: **" var "**");} {print}' README.md > TEMP_README.md && mv TEMP_README.md README.md
 
       - name: Commit the changes to git
         run: |
