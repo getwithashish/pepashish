@@ -22,7 +22,7 @@ jobs:
         run: sudo apt-get update -y && sudo apt-get upgrade -y
 
       - name: Install awk
-        run: sudo apt-get install awk
+        run: sudo apt-get install gawk
 
       - name: Make script executable
         run: chmod +x updateContributions.sh
