@@ -18,8 +18,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Check awk exist
-        run: apt-cache policy awk
+      - name: Update and upgrade
+        run: sudo apt-get update -y && sudo apt-get upgrade -y
+
+      - name: Install awk
+        run: sudo apt-get install awk
 
       - name: Make script executable
         run: chmod +x updateContributions.sh
