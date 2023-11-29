@@ -9,7 +9,7 @@ START_YEAR = 2017
 
 CONTRIBUTION_GRAPHQL_QUERY = """
 query($fromYear: DateTime, $toYear: DateTime) {
-	user(login: "pepashish") {
+	user(login: "getwithashish") {
 		contributionsCollection(from: $fromYear, to: $toYear) {
 			contributionCalendar {
 				totalContributions
