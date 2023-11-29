@@ -3,6 +3,9 @@ name: Update Contributions in README.md every day
 on:
   schedule:
     - cron: 0 1 * * *
+  push:
+    branches:
+      - '*'
 
 jobs:
 
